@@ -8,15 +8,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.6",
+    "minifaker": "^1.34.1",
     "next": "12.0.9",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
     "autoprefixer": "^10.4.2",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.9",
     "postcss": "^8.4.5",
+    "tailwind-scrollbar": "^2.0.1",
     "tailwindcss": "^3.0.18"
   }
 }
