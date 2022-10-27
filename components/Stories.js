@@ -20,7 +20,7 @@ export default function Stories() {
     <div className="flex space-x-2 p-6 bg-white mt-8 border border-gray-200 overflow-x-scroll rounded-sm scrollbar-none">
       {session && <Story username={session.user.username} img={session.user.image} isUser="true" />}
       {storyUsers.map((user, i) => (
-        <Story key={i} username={user.username} img={user.img} />
+        <Story key={i} username={user.username} img={user?.img} />
       ))}
     </div>
   );
